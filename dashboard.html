@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Analytics Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Header Widgets -->
+        <div class="header-widgets">
+            <div class="widget">
+                <span class="icon">🏋️</span>
+                <div class="metric">
+                    <h3>Completed Tasks</h3>
+                    <p>85%</p>
+                </div>
+            </div>
+            <div class="widget">
+                <span class="icon">⭐</span>
+                <div class="metric">
+                    <h3>Customer Rating</h3>
+                    <p>4.8</p>
+                </div>
+            </div>
+            <div class="widget">
+                <span class="icon">⏱️</span>
+                <div class="metric">
+                    <h3>Average Time</h3>
+                    <p>3.5h</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Performance Bar Graph -->
+            <div class="card">
+                <h2>Performance Stats</h2>
+                <canvas id="performanceChart"></canvas>
+            </div>
+
+            <!-- Work Efficiency Line Chart -->
+            <div class="card">
+                <h2>Work Efficiency</h2>
+                <canvas id="efficiencyChart"></canvas>
+                <div class="highlight">Current: 87%</div>
+            </div>
+
+            <!-- Budget Usage Card -->
+            <div class="card budget-card">
+                <h2>Budget Usage</h2>
+                <p class="amount">$50,734</p>
+                <div class="budget-bars">
+                    <div class="bar unused" style="width: 50%;"></div>
+                    <div class="bar used" style="width: 30%;"></div>
+                    <div class="bar reserved" style="width: 20%;"></div>
+                </div>
+                <div class="legend">
+                    <span><i class="dot unused"></i> Unused</span>
+                    <span><i class="dot used"></i> Used</span>
+                    <span><i class="dot reserved"></i> Reserved</span>
+                </div>
+            </div>
+
+            <!-- Activity Tracker -->
+            <div class="card">
+                <h2>Activity Tracker</h2>
+                <canvas id="activityChart"></canvas>
+                <p class="change">+5% from last week</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0/dist/chartjs-plugin-datalabels.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

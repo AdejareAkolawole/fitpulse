@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitPulse - Next-Gen Fitness Analytics</title>
+    <link rel="stylesheet" href="landing.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">FitPulse</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <input type="checkbox" id="theme-switch">
+            <label for="theme-switch">🌙</label>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Level Up Your Fitness Game</h1>
+            <p>FitPulse brings next-gen analytics to supercharge your workouts.</p>
+            <a href="dashboard.html" class="cta-button">Launch Dashboard</a>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <h2>Features That Empower</h2>
+        <div class="feature-cards">
+            <div class="feature-card">
+                <span class="icon">📈</span>
+                <h3>Real-Time Insights</h3>
+                <p>Track your performance with live data and actionable insights.</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">⚡</span>
+                <h3>AI-Powered Goals</h3>
+                <p>Let AI craft personalized fitness goals tailored just for you.</p>
+            </div>
+            <div class="feature-card">
+                <span class="icon">🌐</span>
+                <h3>Seamless Integration</h3>
+                <p>Sync with your favorite fitness apps in one click.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p>"FitPulse transformed my routine! The insights are incredible."</p>
+                <h4>— Alex K.</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"I love the AI goals. It’s like having a personal coach!"</p>
+                <h4>— Sarah M.</h4>
+            </div>
+            <div class="testimonial-card">
+                <p>"The dashboard is so intuitive. I’m hooked!"</p>
+                <h4>— Jordan T.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="contact" class="cta-section">
+        <h2>Join the Fitness Revolution</h2>
+        <p>Start tracking, analyzing, and winning with FitPulse today.</p>
+        <a href="dashboard.html" class="cta-button">Get Started Now</a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 FitPulse. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script>
+        // Theme Toggle
+        const themeSwitch = document.getElementById('theme-switch');
+        themeSwitch.addEventListener('change', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
