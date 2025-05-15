@@ -3,100 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FitPulse - Next-Gen Fitness Analytics</title>
+    <title>FitPulse - Ultimate Fitness Analytics</title>
     <link rel="stylesheet" href="landing.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="logo">FitPulse</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="index.html">Dashboard</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="theme-toggle">
-            <input type="checkbox" id="theme-switch">
-            <label for="theme-switch">🌙</label>
-        </div>
-    </nav>
-
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Level Up Your Fitness Game</h1>
-            <p>FitPulse brings next-gen analytics to supercharge your workouts.</p>
-            <a href="dashboard.html" class="cta-button">Launch Dashboard</a>
+            <h1>Unleash Your Fitness Potential</h1>
+            <p>FitPulse delivers cutting-edge analytics to transform your workout journey.</p>
+            <a href="index.html" class="cta-button">Launch Dashboard</a>
         </div>
-        <div class="hero-bg"></div>
+        <div class="hero-bg">
+            <div class="bg-layer layer1"></div>
+            <div class="bg-layer layer2"></div>
+            <div class="bg-layer layer3"></div>
+        </div>
     </section>
 
     <!-- Features Section -->
     <section id="features" class="features">
-        <h2>Features That Empower</h2>
+        <h2>Next-Gen Features</h2>
         <div class="feature-cards">
             <div class="feature-card">
-                <span class="icon">📈</span>
-                <h3>Real-Time Insights</h3>
-                <p>Track your performance with live data and actionable insights.</p>
+                <span class="icon">🚀</span>
+                <h3>Live Tracking</h3>
+                <p>Monitor your workouts in real-time with precision.</p>
             </div>
             <div class="feature-card">
-                <span class="icon">⚡</span>
-                <h3>AI-Powered Goals</h3>
-                <p>Let AI craft personalized fitness goals tailored just for you.</p>
+                <span class="icon">🤖</span>
+                <h3>AI Insights</h3>
+                <p>Get personalized recommendations powered by AI.</p>
             </div>
             <div class="feature-card">
-                <span class="icon">🌐</span>
-                <h3>Seamless Integration</h3>
-                <p>Sync with your favorite fitness apps in one click.</p>
+                <span class="icon">🔗</span>
+                <h3>App Sync</h3>
+                <p>Integrate with wearables and fitness apps seamlessly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing-toggle">
+            <span>Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="pricing-switch">
+                <span class="slider"></span>
+            </label>
+            <span>Yearly</span>
+        </div>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Basic</h3>
+                <p class="price monthly">$9<span>/mo</span></p>
+                <p class="price yearly hidden">$90<span>/yr</span></p>
+                <ul>
+                    <li>Core Analytics</li>
+                    <li>1 Device Sync</li>
+                    <li>Email Support</li>
+                </ul>
+                <a href="#" class="cta-button">Get Started</a>
+            </div>
+            <div class="pricing-card popular">
+                <h3>Pro</h3>
+                <p class="price monthly">$19<span>/mo</span></p>
+                <p class="price yearly hidden">$190<span>/yr</span></p>
+                <ul>
+                    <li>Advanced AI Insights</li>
+                    <li>Unlimited Sync</li>
+                    <li>Priority Support</li>
+                </ul>
+                <a href="#" class="cta-button">Get Started</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Elite</h3>
+                <p class="price monthly">$29<span>/mo</span></p>
+                <p class="price yearly hidden">$290<span>/yr</span></p>
+                <ul>
+                    <li>Full Analytics Suite</li>
+                    <li>Team Features</li>
+                    <li>24/7 Support</li>
+                </ul>
+                <a href="#" class="cta-button">Get Started</a>
             </div>
         </div>
     </section>
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials">
-        <h2>What Our Users Say</h2>
+        <h2>Trusted by Thousands</h2>
         <div class="testimonial-cards">
             <div class="testimonial-card">
-                <p>"FitPulse transformed my routine! The insights are incredible."</p>
-                <h4>— Alex K.</h4>
+                <p>"FitPulse has revolutionized my fitness routine. The AI insights are a game-changer!"</p>
+                <h4>— Emily R.</h4>
             </div>
             <div class="testimonial-card">
-                <p>"I love the AI goals. It’s like having a personal coach!"</p>
-                <h4>— Sarah M.</h4>
+                <p>"I’ve never felt more in control of my workouts. The dashboard is incredible."</p>
+                <h4>— Marcus L.</h4>
             </div>
             <div class="testimonial-card">
-                <p>"The dashboard is so intuitive. I’m hooked!"</p>
-                <h4>— Jordan T.</h4>
+                <p>"The app sync feature saved me so much time. Highly recommend FitPulse!"</p>
+                <h4>— Priya S.</h4>
             </div>
         </div>
     </section>
 
-    <!-- Call to Action Section -->
+    <!-- CTA Section -->
     <section id="contact" class="cta-section">
-        <h2>Join the Fitness Revolution</h2>
-        <p>Start tracking, analyzing, and winning with FitPulse today.</p>
-        <a href="dashboard.html" class="cta-button">Get Started Now</a>
+        <div class="cta-bg">
+            <div class="cta-content">
+                <h2>Ready to Elevate Your Fitness?</h2>
+                <p>Take the first step towards smarter workouts with FitPulse.</p>
+                <div class="cta-buttons">
+                    <a href="index.html" class="cta-button primary">Go to Dashboard</a>
+                    <a href="#features" class="cta-button secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <p>© 2025 FitPulse. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-logo">FitPulse</div>
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="newsletter">
+                <h4>Stay Updated</h4>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
         <div class="social-links">
             <a href="#">Twitter</a>
             <a href="#">Instagram</a>
             <a href="#">LinkedIn</a>
         </div>
+        <p>© 2025 FitPulse. All rights reserved.</p>
     </footer>
 
+    <!-- Bottom App-Style Menu -->
+    <nav class="bottom-menu">
+        <a href="#home" class="menu-item active">
+            <span class="icon">🏠</span>
+            <span class="label">Home</span>
+        </a>
+        <a href="#features" class="menu-item">
+            <span class="icon">⭐</span>
+            <span class="label">Features</span>
+        </a>
+        <a href="#pricing" class="menu-item">
+            <span class="icon">💰</span>
+            <span class="label">Pricing</span>
+        </a>
+        <a href="index.html" class="menu-item">
+            <span class="icon">📊</span>
+            <span class="label">Dashboard</span>
+        </a>
+        <a href="#contact" class="menu-item">
+            <span class="icon">📞</span>
+            <span class="label">Contact</span>
+        </a>
+    </nav>
+
     <script>
-        // Theme Toggle
-        const themeSwitch = document.getElementById('theme-switch');
-        themeSwitch.addEventListener('change', () => {
-            document.body.classList.toggle('dark-mode');
+        // Highlight Active Menu Item on Scroll
+        const sections = document.querySelectorAll('section');
+        const menuItems = document.querySelectorAll('.menu-item');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            menuItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('href').includes(current)) {
+                    item.classList.add('active');
+                }
+            });
+        });
+
+        // Pricing Toggle
+        const pricingSwitch = document.getElementById('pricing-switch');
+        pricingSwitch.addEventListener('change', () => {
+            document.querySelectorAll('.price.monthly').forEach(el => el.classList.toggle('hidden'));
+            document.querySelectorAll('.price.yearly').forEach(el => el.classList.toggle('hidden'));
+        });
+
+        // Parallax Background Effect
+        window.addEventListener('scroll', () => {
+            const layers = document.querySelectorAll('.bg-layer');
+            layers.forEach((layer, index) => {
+                const speed = (index + 1) * 0.05;
+                layer.style.transform = `translateY(${window.scrollY * speed}px)`;
+            });
         });
     </script>
 </body>
